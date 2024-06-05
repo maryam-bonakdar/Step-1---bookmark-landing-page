@@ -1,0 +1,695 @@
+  * {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 20px;
+    background-color: #ffffff;
+  }
+
+  .flexContainer , .flexContainer3 {
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+  }
+
+  .context{
+    color: #000000;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  @media screen and (max-width: 880px){
+    .nav-item1{
+      color: white;
+    }
+    .nav-item2{
+      display: none;
+    }
+    .nav-item3{
+      color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      position: relative;
+    }
+    .nav-item3 ~ .modal {
+      display: block;
+     }
+    .logo{
+      cursor: pointer;
+     }
+     .minimumUl{
+      border: 1px solid #100845;
+      z-index: 2;
+      background-color: #100845;
+      opacity: 0.95;
+      top: -28px;
+      right: -28px;
+      width: 100vw;
+      height: 100vh;  
+      color: #100845;
+      position: absolute;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+     }
+  
+     .minimumUl li{
+      text-align: center;
+      padding: 18px;
+      width: 75%;
+     }
+
+     .minText{
+      text-decoration: none;
+      color: white;
+      border: 2px solid transparent;
+      padding: 10px;
+      display: block;
+     }
+
+     .minText:hover{
+      text-decoration: none;
+      color: white;
+      padding: 10px;
+      display: block;
+      border: 2px solid white;
+     }
+
+     .minili{
+      display: flex;
+      justify-content: space-between;
+      margin: 20px 0;
+     }
+
+     .borderli{
+      border-top: 1px solid  #5e5d5d;
+      position: relative;
+     }
+
+     .firstli{
+      display: inline-block;
+      position: absolute;
+      align-self: center;
+     }
+
+     .firstli:hover{
+      border: 2px solid white;
+     }
+
+     .secondli{
+      display: inline-block;
+      border: 2px solid transparent;
+      width: 20px;
+      height: 20px;
+     }
+
+     .secondli:hover{
+      border: 2px solid white;
+      width: 20px;
+      height: 20px;
+     }
+
+     .footerli{
+      display: flex;
+      justify-content: center;
+      margin: 200px 0;
+     }
+
+     .minifooter{
+      padding: 0 20px;
+     }
+
+     .head{
+      background-color: #fefefe;
+      margin: 15% auto;
+      padding: 20px;
+      border: 1px solid #888;
+      width: 80%;          
+    } 
+    .context , .context3{
+      align-items: center;
+      text-align: center; 
+      padding-left: 50px;
+      padding-right: 50px;
+    }
+    .flexContainer {
+      height: 700px;
+      flex-direction: column-reverse;
+    } 
+    .pic {
+      width: 100%;
+      height: 450px;
+    }
+    .image{
+      left: 0px;
+    }
+    .shape {
+      border-bottom-left-radius: 190px;
+      border: 20px solid #5740ef;
+      right: 0px;
+      left: 100px;
+    }  
+    .context2{
+      padding: 20px 80px 15px 80px;  
+    }
+    .options{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      position: relative;
+    }
+    .option{
+      border-bottom: 1px solid rgb(138, 136, 136);
+      width: 100%;
+      display: flex;
+      justify-content: center ;
+      position: relative;
+    } 
+    .optionTop{
+      border-top: 1px solid rgb(138, 136, 136);
+    }
+    .option p{
+      text-align: center;
+    }
+
+    .flexContainer3 {
+      height: 700px;
+      flex-direction: column;
+    }
+    .flexContainer3{
+      display: none;
+    }
+    .active{
+      display: flex;
+      justify-content: center;
+    }
+    
+    .options .active::after {
+      content: "";
+      display: block;
+      position: absolute;
+      bottom: 0;
+      border-bottom: 2px solid red !important;
+      width: 33%; 
+    }
+
+    .pic2 {
+      width: 100%;
+      height: 390px;
+    }
+    .image2{
+      right: 20px;
+    }
+    .shape2  {
+      width: 100%;
+      border-bottom-right-radius: 190px;
+      border: 145px solid #5740ef;
+      right: 80px;
+    }
+    .boxes{
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .allContent {
+      padding: 20px 80px 15px 80px;
+    } 
+    .footer1{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }  
+    .footer1 li{
+      padding: 15px;
+    }
+    .footer2{
+      display: flex;
+      flex-direction: row;
+      justify-content: center  ;
+      align-items: center;
+    }  
+  .iconFooter{
+    padding: 15px;
+  }
+  .contactUs{
+    margin-top: 20px;
+    width: 300px;
+    height: 47px;
+  }
+  form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+  @media screen and (min-width: 880px){   
+    .head {
+      color: #000000;
+      text-align: center;
+      padding: 20px;
+      text-decoration: none;  
+    }  
+    .nav-item1 , .nav-item2{
+      color: #ffffff;
+      display: flex;
+      align-items: center;
+    }  
+    .nav-item3{
+      display: none;
+    }
+
+    .boxing{
+      border: 1px solid transparent;
+      width: fit-content;
+      height: 20px;
+    }
+
+    .boxing:active{
+      border: 1px solid rgb(255, 2, 2);
+      width: fit-content;
+      height: 20px;
+     }  
+     .text:hover {
+      color: rgb(255, 0, 0);
+    }
+    .context{
+      align-items: flex-start;
+      width: 45%;
+      padding-left: 40px;
+      padding-right: 250PX;
+    }
+    .flexContainer , .flexContainer3 {
+      height: 450px;
+    }  
+    .flexContainer3{
+      display: none;
+    }
+    .active{
+      display: flex;
+      justify-content: center;
+    }
+    .options .active{
+      border-bottom: 2px solid red !important;
+    }
+    .pic{
+      width: 55%;
+      height: 450px;
+    }
+    .image{
+      left: -200px;
+    }
+    .shape {
+      border-bottom-left-radius: 190px;
+      border: 30px solid #5740ef;
+      right: 0px;
+      left: -50px;
+    }  
+    .context2{
+      padding: 20px 300px 15px 300px;  
+    }
+    .options{
+      display: flex;
+      flex-direction: row;
+      position: relative;
+      width: 60%;
+    }
+    .option{
+      border-bottom: 1px solid rgb(138, 136, 136);
+      width: 100%;
+    } 
+    .option p{
+      text-align: center;
+    }
+    .pic2 {
+      width: 55%;
+      height: 390px;
+    }
+    .image2{
+      right: -110px;
+    }    
+    .shape2  {
+      width: 100%;
+      border-bottom-right-radius: 190px;
+      border: 145px solid #5740ef;
+      right: -60px;
+    }
+    .context3{
+      align-items: flex-start;
+      width: 45%;
+      padding-left: 200px;
+      padding-right: 40PX;
+    }
+    .boxes{
+      width: 100%;
+      height: 500px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+    }
+    .box1{
+      align-self: flex-start;
+    }
+    .box3{
+      align-self: flex-end;
+    }
+    .allContent {
+      padding: 20px 300px 15px 300px;
+    } 
+    .bottom{
+      display: flex;
+      justify-content: space-between;
+    }
+    .item{
+      padding: 20px;
+    }     
+    .footer1 , .footer2{
+      display: flex;
+      align-items: center;
+    }
+    .iconFooter{
+      padding: 20px;
+    }  
+    .contactUs{
+      width: 100px;
+      height: 47px;
+    }
+    form{
+      display: flex;
+      justify-content: space-around;
+    }
+    .inform{
+    margin-right: 15px;
+    }
+  }
+
+  .pic , .pic2 {
+    position: relative;
+  }
+
+  .image , .image2{
+    z-index: 1;
+    position: absolute;
+  }
+
+  .shape {
+    height: 260px;
+    background-color: #5740ef;
+    position: absolute;
+    bottom: 0;
+    z-index: 0;
+  }  
+
+  .shape2{
+    height: 20px;
+    background-color: #5740ef;
+    position: absolute;
+    bottom: 0;
+    z-index: 0;
+  }
+
+  .btn1{
+    width: 130px;
+    height: 40px;
+    border-radius: 5px;
+    border: 50px;
+    color: #ffffff;
+    background-color: #5740ef;
+    cursor: pointer;
+  }
+  .btn1:hover{
+    cursor: pointer;
+    color:#5740ef;
+    background-color: white;
+    border: 2px solid #5740ef;
+  }
+
+  .btn2{
+    width: 130px;
+    height: 40px;
+    border-radius: 5px;
+    border: 50px;
+    color: #000000;
+    background-color: #e8e8e9;
+    cursor: pointer;
+  }
+
+  .btn2:hover{
+    cursor: pointer;
+    color:black;
+    background-color: white;
+    border: 2px solid black;
+  }
+
+  .flexContainer2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .context2{
+    text-align: center;
+  }
+  
+  .option p:hover{
+    color: red;
+    cursor: pointer;
+  }
+
+  .btn3{
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border: 50px;
+    color: #ffffff;
+    background-color: #5740ef;
+  }
+
+  .box {
+    position: relative;
+    margin: 20px;
+    border-style: solid;
+    width: 220px;
+    height: 300px;
+    border-color: #e8e8e9;
+    border-top: #ffffff;
+    border-radius: 10px;
+  }
+
+  .browser{
+    width: 220px;
+    height: 230px;
+  }
+
+  .image3{
+    position: absolute;
+    right: 70px;
+    top: 30px;
+  }
+
+  .browser div{
+    line-height: 7px;
+    right: 28px;
+    text-align: center;
+    position: absolute;
+    top: 140px;
+  }
+
+  .Second{
+    position: relative;
+    display: flex;
+    flex-direction: column;   
+    width: 220px;
+    height: 70px;
+  }
+
+  .line{
+    width: 220px;
+    top: 0;  
+    border-top: 6px dotted rgb(138, 136, 136);
+  }
+
+  .btn4{
+    position: absolute;
+    width: 180px;
+    height: 35px;
+    border-radius: 5px;
+    border: 50px;
+    color: #ffffff;
+    background-color: #5740ef;
+    top: 20px;
+    right: 20px;
+  }
+
+  .btn4:hover{
+    cursor: pointer;
+    color:#5740ef;
+    background-color: white;
+    border: 2px solid #5740ef;
+  }
+
+  .allContent{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .image4 , .image6{
+    display: flex;
+    }
+  
+  .image6{
+    transform: rotate(180deg);
+  }
+
+  .collapsible {
+    cursor: pointer;  
+    text-align: left;
+    color: black;
+  }
+  
+ .collapsible:hover {
+    color: #e40101;
+  }
+  
+  .content p {
+    color: #555;
+  }
+
+  .content{
+    height: 0;
+    background: white;
+    z-index: 0;
+    overflow: hidden;
+  }
+
+  .content-auto{
+    height: auto !important;
+  }
+
+  .seperator{
+    border-top: 1px solid #c6c6c6;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    z-index: 1;
+    background: white;
+  }
+
+  .seperatorDown{
+    border-bottom: 1px solid #c6c6c6;
+  }
+
+  .contact{
+    width: 100%;
+    height: 350px;
+    background-color: #523aef;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contact p , .contact h1 {
+    color: white;
+    text-align: center;
+  }
+
+  form{
+    text-align: center;
+  }
+
+  .inform{
+    position: relative;
+  }
+
+  input{
+    border-radius: 7px;
+    border: 2px solid rgb(183, 181, 181);
+    box-sizing: border-box;
+    height: 45px;
+    width: 300px;
+  }
+
+  input:focus{
+    outline: none;
+  }
+
+   input.invalid {
+    height: 40px;
+    width: 300px;
+    border: 3px solid red ;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+   }
+   
+   #image7{
+    position: absolute;
+    right: 12px;
+    top: 12px;
+    visibility: hidden;
+  }
+
+   .error-message {
+    height: 20px;
+    width: 300px;
+    color: white;
+    display: none;
+    background-color: red;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+   }
+
+   .contactUs{
+    color: white;
+    background-color: red;
+    border-radius: 7px;
+   }
+   
+   .contactUs:hover {
+    border: 3px solid red;
+    color: red;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 7px;
+   }
+
+  .item:hover{
+    color: red;
+    cursor: pointer;
+  }
+
+  .image5:hover{
+    cursor: pointer;
+    background-color: red;
+  }
+  
+  .bottom{
+    margin: 0;
+    background-color: #100845;
+    color:  #100845;
+  }
+  
+  .item{
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .d-none {
+    display: none;
+   }
+
+
+

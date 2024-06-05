@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>snappFood</title>
+        <meta charset="UTF-8">
+        <link  rel="stylesheet" type="text/css" href="styles1.css"> 
+        <script type="text/javascript" src="script.js" defer></script>
+    </head>
+    <body>
+        <nav>
+            <ul class="header">                     
+                <li class="nav-item1">
+                    <a href="#BOOKMARK"></a>
+                    <img src="images/logo-bookmark.svg">
+                </li>     
+                <div class="nav-item2">
+                    <li class="boxing"><a href="#FEATURES" class="text head">FEATURES</a></li>
+                    <li class="boxing"><a href="#PRICING" class="text head">PRICING</a></li>
+                    <li class="boxing"><a href="#CONTACT" class="text head">CONTACT</a></li>
+                    <li class="boxing"><a href="#LOGIN" class="text head">LOGIN</a></li> 
+                </div>  
+                <div class="nav-item3"> 
+                    <a href="#hamburger"><img class="logo" id="logo" src="images/icon-hamburger.svg" class="logo"></a>
+                    <ul class="minimumUl d-none">
+                        <li class="minili">
+                            <a href="#BOOKMARK" class="firstli1"></a>
+                            <img class="firstli" src="images/logo-bookmark.svg">
+                            <a href="#close"></a>
+                            <img class="secondli" src="images/icon-close.svg" width="18" height="18">
+                        </li>
+                        <li class="borderli"><a href="#FEATURES" class="minText">FEATURES</a></li>
+                        <li class="borderli"><a href="#PRICING" class="minText">PRICING</a></li>
+                        <li class="borderli"><a href="#CONTACT" class="minText">CONTACT</a></li>
+                        <li class="borderli"><a href="#LOGIN" class="minText">LOGIN</a></li>
+                        <li class="footerli">
+                            <a href="https://www.facebook.com/"></a>
+                            <img class="minifooter" src="images/icon-facebook.svg">
+                            <a href="https://twitter.com"></a>
+                            <img class="minifooter" src="images/icon-twitter.svg">
+                        </li>
+                    </ul>          
+                </div>         
+            </ul>
+        </nav>
+        
+        <section class="flexContainer">
+            <div class="context">
+                <h1>
+                    A Simple Bookmark Manager
+                </h1>
+                <P>
+                    A clean and simple interface to organize your favourite websites. Open a new browser tab and see your sites load instantly. Try it for free.
+                </P>
+                <div>
+                    <button class="btn1" type="button">Get it on Chrome</button>
+                    <button class="btn2" type="button">Get it on Firefox</button>
+                </div>
+                
+            </div>
+            <div class="pic"> 
+                    <img src="images/illustration-hero.svg" alt="skeleton" width="510px" height="410px" class="image">
+                    <div class="shape"></div>                          
+            </div>
+        </section>
+
+        <Section class="flexContainer2">
+            <div class="context2">
+                <h1>
+                    Features
+                </h1>
+                <P>
+                    A clean and simple interface to organize your favourite websites. Open a new browser tab and see your sites load instantly. Try it for free.
+                    A clean and simple interface to organize your favourite websites. Open a new browser tab and see your sites load instantly. Try it for free.
+                </P>
+            </div>
+            <div class="options">
+                <div class="option optionTop" onclick="tabHandler(event , 0)">
+                    <p >Simple Bookmarking</p>
+                </div>                    
+                <div class="option" onclick="tabHandler(event , 1)">
+                    <p>Speedy Searching</p>
+                </div>              
+                <div class="option" onclick="tabHandler(event , 2)">
+                    <p>Easy Sharing</p>
+                </div>             
+            </div>
+        </Section>
+
+        <section  id="0" class="flexContainer3 active">
+            <div class="pic2"> 
+                <img src="images/illustration-features-tab-1.svg" alt="skeleton" width="470px" height="300px" class="image2">
+                <div class="shape2"></div>                          
+            </div>
+            <div class="context3">
+                <h1>
+                    Bookmark in one click
+                </h1>
+                <P>
+                    A clean and simple interface to organize your favourite websites. Open a new browser tab and see your sites load instantly. Try it for free.
+                </P>
+                <div>
+                    <button class="btn3" type="button">More Info</button>
+                </div>
+            </div>
+        </section>
+
+        <section  id="1" class="flexContainer3">
+            <div class="pic2"> 
+                <img src="images/illustration-features-tab-2.svg" alt="skeleton" width="470px" height="300px" class="image2">
+                <div class="shape2"></div>                          
+            </div>
+            <div class="context3">
+                <h1>
+                    Intelligent Search
+                </h1>
+                <P>
+                    Our powerful search feature will help you find saved sites in no time at all. No need to trawl through all of your bookmarks.
+                </P>
+                <div>
+                    <button class="btn3" type="button">More Info</button>
+                </div>
+            </div>
+        </section>
+
+        <section  id="2" class="flexContainer3">
+            <div class="pic2"> 
+                <img src="images/illustration-features-tab-3.svg" alt="skeleton" width="470px" height="300px" class="image2">
+                <div class="shape2"></div>                          
+            </div>
+            <div class="context3">
+                <h1>
+                    Share your bookmarks
+                </h1>
+                <P>
+                    Easily share your bookmarks and collections with others. Create a shareable link that you can send at the click of a button.
+                </P>
+                <div>
+                    <button class="btn3" type="button">More Info</button>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="context2">
+                <h1>
+                    Download the extension
+                </h1>
+                <P>
+                    A clean and simple interface to organize your favourite websites. Open a new browser tab and see your sites load instantly. Try it for free.
+                </P>
+            </div>
+            <div class="boxes">
+                <div class="box box1">
+                    <div class="browser">
+                        <img src="images/logo-chrome.svg" alt="skeleton" width="80px" height="80px" class="image3">
+                        <div>
+                            <h1>
+                                Add to Chrome
+                            </h1>
+                            <P>
+                                Minimum version 62
+                            </P>
+                        </div>
+                    </div>
+                    <div class="Second">
+                        <div class="line"></div>
+                        <button class="btn4" type="button">Add & Install Extension</button>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="browser">
+                        <img src="images/logo-firefox.svg" alt="skeleton" width="80px" height="80px" class="image3">
+                        <div>
+                            <h1>
+                                Add to Firefox
+                            </h1>
+                            <P>
+                                Minimum version 55
+                            </P>
+                        </div>
+                    </div>
+                    <div class="Second">
+                        <div class="line"></div>
+                        <button class="btn4" type="button">Add & Install Extension</button>
+                    </div>
+                </div>
+                <div class="box box3">
+                    <div class="browser">
+                        <img src="images/logo-opera.svg" alt="skeleton" width="80px" height="80px" class="image3">
+                        <div>
+                            <h1>
+                                Add to Opera
+                            </h1>
+                            <P>
+                                Minimum version 46
+                            </P>
+                        </div>
+                    </div>
+                    <div class="Second">
+                        <div class="line"></div>
+                        <button class="btn4" type="button">Add & Install Extension</button>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section>
+            <div class="context2">
+                <h1>
+                    Frequently Asked Question
+                </h1>
+                <P>
+                    A clean and simple interface to organize your favourite websites. Open a new browser tab and see your sites load instantly. Try it for free.
+                </P>
+            </div>
+            <div class="allContent">
+                <div class="seperator">
+                    <span type="button" class="collapsible">What is Bookmark?</span>
+                    <img src="images/icon-arrow.svg" alt="skeleton" width="10px" height="10px" class="image4">
+                    <img src="images/icon-arrow-red.svg" alt="skeleton" width="10px" height="10px" class="image6 d-none">
+                </div>
+                <div class="content">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+                <div class="seperator">
+                    <span type="button" class="collapsible">How can i request a new browser?</span>
+                    <img src="images/icon-arrow.svg" alt="skeleton" width="10px" height="10px" class="image4">
+                    <img src="images/icon-arrow-red.svg" alt="skeleton" width="10px" height="10px" class="image6 d-none">
+                </div>
+                <div class="content">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+                <div class="seperator">
+                    <span type="button" class="collapsible">Is there a mobile app?</span>
+                    <img src="images/icon-arrow.svg" alt="skeleton" width="10px" height="10px" class="image4">
+                    <img src="images/icon-arrow-red.svg" alt="skeleton" width="10px" height="10px" class="image6 d-none">
+                </div>
+                <div class="content">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+                <div class="seperator seperatorDown">
+                    <span type="button" class="collapsible">What about other Chromium browsers?</span>
+                    <img src="images/icon-arrow.svg" alt="skeleton" width="10px" height="10px" class="image4">
+                    <img src="images/icon-arrow-red.svg" alt="skeleton" width="10px" height="10px" class="image6 d-none">
+                </div>
+                <div class="content">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+            </div>
+            <div class="context2">
+                <button type="button" class="btn3">More Info</button>
+            </div>
+        </section>
+
+       
+        <footer>
+            <div class="contact">
+                <P>
+                    35.000+ ALREADY JOINED
+                </P>
+                <h1>
+                    Stay up-to-date with what we're doing
+                </h1>
+                <div class="container">
+                    <form id="email-form">
+                        <div class="inform">
+                            <input id="email" name="email" placeholder="Enter your email">
+                            <img id="image7" src="images/icon-error.svg" alt="skeleton">
+                            <span id="error-message" class="error-message">Whoops, make sure it's an email</span>     
+                        </div>
+                        <button class="contactUs" type="submit">Contact Us</button>
+                    </form>
+                </div> 
+            </div>                   
+            <div>
+                <ul class="bottom">
+                    <div class="footer1">                    
+                        <li>
+                           <a href="#BOOKMARK"></a>
+                           <img src="images/logo-bookmark.svg" class="logo">
+                        </li>
+                        <li><a href="#FEATURES" class="item">FEATURES</a></li>
+                        <li><a href="#PRICING" class="item">PRICING</a></li>
+                        <li><a href="#CONTACT" class="item">CONTACT</a></li>
+                    </div> 
+                    <div class="footer2">
+                        <li class="iconFooter">
+                            <a href="https://twitter.com"></a>
+                            <img src="images/icon-twitter.svg" class="image5">
+                        </li>       
+                        <li class="iconFooter">
+                            <a href="https://www.facebook.com/"></a>
+                            <img src="images/icon-facebook.svg" class="image5">
+                        </li>       
+                    </div>             
+                </ul>
+            </div>
+        </footer>
+    </body> 
+</html>
